@@ -1,3 +1,4 @@
 [build]
-  command = "composer install && npm install"
+  command = "composer install && npm install && npm run production"
   publish = "public"
+  environment = { PHP_VERSION = "8.1" }
